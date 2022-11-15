@@ -1,15 +1,20 @@
 body, html{
     width: 100%;
     height: 100%;
-    background-color: #7d0259;
     color: white;
     font-size: large;
+}
+
+.first-page{
+    background-color: #7d0259;
+    display: flex;
+    flex-flow: column;
+    margin: -8px 10px 8px -8px;
 }
 
 .menu-header{
     display: flex;
     width: 98%;
-    height: 7%;
 }
 
 .division-ul{
@@ -59,4 +64,14 @@ li{
     border-radius: 40px;
     background-image: linear-gradient(111.3deg, #4a69bb 9.6%, #cd4dcc 93.6%);
     cursor: pointer;
+}
+
+.second-page{
+    background-color: black;
+    color: white;
+    margin: -8px 10px 0px -8px;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
