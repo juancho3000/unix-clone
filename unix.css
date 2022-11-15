@@ -10,17 +10,32 @@ body, html{
     display: flex;
     flex-flow: column;
     margin: -8px 10px 8px -8px;
+    height: 50%;
+    width: 101%;
 }
 
 .menu-header{
     display: flex;
     width: 98%;
+    height: 45%;
 }
 
 .division-ul{
     display: flex;
     justify-content: center;
-    margin: -50px 10px 0px 10px;
+    height: 0px;
+}
+
+.between-header{
+    display: flex;
+    width: 100%;
+    height: 38%;
+    flex-flow: column-reverse;
+}
+
+.after-header{
+    display: flex;
+    justify-content: space-between;
 }
 
 .ul-menu{
@@ -72,6 +87,49 @@ li{
     margin: -8px 10px 0px -8px;
     height: 40%;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    width: 101%;
+}
+
+.art-work{
+    display: flex;
+    height: 65%;
+    width: 25%;
+    justify-content: space-around;
+    flex-flow: column;
+    align-items: center;
+}
+
+.design{
+    display: flex;
+    height: 65%;
+    width: 25%;
+    justify-content: center;
+}
+
+.development{
+    display: flex;
+    height: 65%;
+    width: 25%;
+    justify-content: center;
+}
+
+.marketing{
+    display: flex;
+    height: 65%;
+    width: 25%;
+    justify-content: center;
+}
+
+.bi-play-fill{
+    background-color: lightgreen;
+    border-radius: 46%;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    padding-left: 16px;
+    padding-top: 11px;
 }
