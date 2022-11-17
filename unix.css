@@ -1,8 +1,9 @@
 body, html{
-    width: 100%;
+    width: 101%;
     height: 110%;
     color: white;
     font-size: large;
+    font-family: plusjakartasans, sans-serif;
 }
 
 .first-page{
@@ -11,7 +12,7 @@ body, html{
     flex-flow: column;
     margin: 0px 10px 8px -8px;
     height: 60.6%;
-    width: 101%;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -74,13 +75,14 @@ li{
 
 .bottom-screen{
     display: flex;
-    width: 32%;
+    width: 35%;
     justify-content: center;
     border: none;
     margin: 4px 2px;
     border-radius: 40px;
     background-image: linear-gradient(111.3deg, #4a69bb 9.6%, #cd4dcc 93.6%);
     cursor: pointer;
+    padding: 10px;
 }
 
 .second-page{ 
@@ -91,7 +93,7 @@ li{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 101%;
+    width: 100%;
 }
 
 .art-work{
@@ -177,6 +179,28 @@ li{
     display: flex;
     flex-flow: column;
     width: 70%;
-    height: 74%;
+    height: 75%;
     gap: 8px;
+}
+
+.bi-caret-down-fill{
+    border-bottom: 1px solid lightgrey;
+}
+
+.bi-caret-right-fill{
+    border-bottom: 1px solid lightgrey;
+}
+
+.fourth-page{
+    display: flex;
+    height: 45%;
+    width: 100%;
+    background-image: radial-gradient(circle, rgba(39,59,231,1) 0%, rgba(9,8,8,1) 82%);
+}
+
+.unix-tokens{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    width: 50%;
 }
